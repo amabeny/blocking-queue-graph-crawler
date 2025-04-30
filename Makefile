@@ -6,9 +6,9 @@ CC=g++
 all: blocking_queue_client
 
 blocking_queue_client: blocking_queue_client.o
-    $(LD) $< -o $@ $(LDFLAGS)
+	$(LD) $< -o $@ $(LDFLAGS)
 blocking_queue_client.o: client.cpp
-    $(CC) $(CXXFLAGS) -c $< -o $@
+	$(CC) $(CXXFLAGS) -c $< -o $@
 
 clean:
-    -rm -f blocking_queue_client blocking_queue_client.o
+	-rm -f blocking_queue_client blocking_queue_client.o
