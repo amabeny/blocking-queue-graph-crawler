@@ -9,6 +9,8 @@
 #include "rapidjson/error/error.h"
 #include "rapidjson/reader.h"
 #include <chrono>
+#include <queue>
+#include "rapidjson/document.h"
 
 using namespace std;
 using namespace rapidjson;
