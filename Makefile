@@ -7,8 +7,7 @@ all: blocking_queue_client
 
 blocking_queue_client: blocking_queue_client.o
     $(LD) $< -o $@ $(LDFLAGS)
-
-blocking_queue_client.o: client.cpp # Changed to client.cpp
+blocking_queue_client.o: client.cpp
     $(CC) $(CXXFLAGS) -c $< -o $@
 
 clean:
