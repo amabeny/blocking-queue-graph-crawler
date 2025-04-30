@@ -1,0 +1,16 @@
+Timings for Graph Traversal
+
+Test Node: "Tom Hanks"
+Traversal Depth: 4
+
+Parallel Version (Blocking Queue):
+Execution time:
+    real    8m35.352s
+    user    0m0.667s
+    sys     0m0.326s
+
+Sequential Version:
+Execution time:
+    real    8m34.013s
+    user    0m0.578s
+    sys     0m0.232s
